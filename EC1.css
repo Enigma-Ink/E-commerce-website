@@ -1,11 +1,9 @@
-/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +11,6 @@ body {
     background: #f5f5f5;
 }
 
-/* Header */
 header {
     background: linear-gradient(to right, #004d40, #00796b);
     color: white;
@@ -26,7 +23,6 @@ header h1 {
     margin: 0;
 }
 
-/* Navigation */
 nav {
     background-color: #00796b; /* Darker teal background for navigation */
     padding: 10px 0;
@@ -48,13 +44,11 @@ nav a:hover, nav a.active {
     color: #fff;
 }
 
-/* Main Section */
 main {
     display: flex;
     margin: 20px;
 }
 
-/* Cart Sidebar */
 #cart {
     width: 300px;
     background: white;
@@ -83,7 +77,6 @@ main {
     font-size: 1.2em;
 }
 
-/* Checkout Button */
 #checkout-button {
     background: linear-gradient(to right, #00796b, #004d40);
     border: none;
@@ -103,7 +96,6 @@ main {
     background: linear-gradient(to right, #004d40, #00796b);
 }
 
-/* Product Listings */
 #products {
     flex: 1;
     display: flex;
