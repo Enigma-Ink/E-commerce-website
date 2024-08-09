@@ -55,7 +55,6 @@ function showCategory(category) {
         productsSection.appendChild(productDiv);
     });
 
-    // Update navigation links
     document.querySelectorAll('nav a').forEach(link => {
         if (link.getAttribute('onclick').includes(category)) {
             link.classList.add('active');
@@ -202,9 +201,8 @@ function calculateTotal() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    showCategory('computers'); // Show computers by default; adjust as needed
+    showCategory('computers'); 
 
-    // Add event listeners for navigation
     document.querySelectorAll('nav a').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
